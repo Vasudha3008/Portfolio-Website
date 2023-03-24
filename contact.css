@@ -1,0 +1,44 @@
+body{
+    background-image: url(contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh ;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 0 0 5px rgb(62, 141, 180), 0 0 5px rgb(69, 156, 193), 0 0 5px #37a4b0, 0 0 5px #32bdbb, 0 0 5px #36cbcb, 0 0 5px #3bbecd, 0 0 5px #35bed0;
+
+}
+
+#form{
+    margin-top: 10%;
+    margin-left:20% ;
+    margin-right: 18%;
+    width: 27%;
+    padding: 100px;
+    background-color: rgba(0,0,0,0.2);
+    padding-left: 20%;
+    border: 2px solid rgb(92, 75, 75);
+    border-radius: 18px;
+}
+
+input{
+    padding: 20px 45px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#submit{
+    padding: 15px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 0.9rem;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(62, 141, 180), 0 0 5px rgb(69, 156, 193), 0 0 5px #37a4b0, 0 0 5px #32bdbb, 0 0 5px #36cbcb, 0 0 5px #3bbecd, 0 0 5px #35bed0;
+}

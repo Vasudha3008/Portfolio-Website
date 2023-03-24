@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#portfolio{
+    background-image: url(portfolio.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+}
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 0 0 5px rgb(109, 210, 212), 0 0 5px rgb(99, 197, 219), 0 0 5px #5acde7, 0 0 5px #54cfdd, 0 0 5px #5ad9d5, 0 0 5px #4ac5d7, 0 0 5px #56cbd3;
+}
+#ed{
+    margin: 4vw;
+}
+#edu{
+    color: rgb(44, 182, 187);
+    margin-bottom: 25px;
+    margin-left: 12%;
+    text-shadow: 0 0 5px rgb(246, 241, 246), 0 0 5px rgb(222, 217, 223), 0 0 5px #e8dfec, 0 0 5px #c8c4ca, 0 0 5px #f6f0f8, 0 0 5px #eee3ed, 0 0 5px #e8e1e9;
+    animation-name: edu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes edu{
+    0%
+    {
+        color: rgb(145, 20, 101);
+        text-shadow: 0 0 5px rgb(57, 169, 171), 0 0 5px rgb(65, 155, 175), 0 0 5px #388799, 0 0 5px #2e6b72, 0 0 5px #2e9692, 0 0 5px #3093a2, 0 0 5px #318e95;
+    }
+    
+    80%{
+        color: cornflowerblue;
+        text-shadow: 0 0 5px rgb(172, 80, 184), 0 0 5px rgb(169, 66, 185), 0 0 5px #943abd, 0 0 5px #773a90, 0 0 5px #83409a, 0 0 5px #96368c, 0 0 5px #97559f;
+
+    }
+}
+#box{
+    border: 2px solid rgba(51, 84, 104, 0.483);
+    border-radius: 12px;
+    padding: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 25%;
+    margin-bottom: 10px;
+}
+#cl10{
+    color: white;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.icse{
+    color: white;
+    font-size: 18px;
+}
+
+#box1{
+    border: 2px solid rgba(51, 84, 104, 0.483);
+    border-radius: 12px;
+    padding: 5vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 25%;
+}
+#cl12{
+    color: white;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.icse1{
+    color: white;
+    font-size: 18px;
+}
+
+#comp{
+    margin-left: 70%;
+    color: rgb(43, 82, 141);
+}
+
+   
+
+#head{
+    margin-bottom: 25px;
+    animation-name: edu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-shadow: 0 0 5px rgb(246, 241, 246), 0 0 5px rgb(222, 217, 223), 0 0 5px #e8dfec, 0 0 5px #c8c4ca, 0 0 5px #f6f0f8, 0 0 5px #eee3ed, 0 0 5px #e8e1e9;
+
+}
+
+#cpp{
+    height:20px;
+    background-color: grey;
+    width: 420px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+#text{
+    text-align: center;
+}
+#cpp1{
+    height:20px;
+    background-color: rgba(43, 117, 207, 0.698);
+    width: 75%;
+    border-radius: 15px;
+    animation-name: motu;
+    animation-duration: 1s;
+}
+@keyframes motu{
+    0%{
+        width:0%;
+    }
+}
+#cpp2{
+    height:20px;
+    background-color: rgb(100, 240, 236);
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    animation-name: motu;
+    animation-duration: 1s;
+}
+#cpp3{
+    height:20px;
+    background-color: rgba(105, 166, 170, 0.841);
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    animation-name: motu;
+    animation-duration: 1s;
+}
+#company{
+    color:rgb(114, 12, 127);
+    margin-top: 1%;
+    animation-name: vp;
+    animation-duration: 4s;
+}
+@keyframes vp{
+    0%{
+        margin-top: 50vh;
+    }
+}
+.brands{
+   padding-left:20%;
+    font-size: 3rem;
+    text-align: left;
+
+}
+#words{
+    color: rgb(92, 40, 222);
+    margin-bottom: 130px;
+}
+#image{
+    height:700px;
+    width:700px;
+    margin-left: 20%;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    
+}
+
+#second{
+    background-image: url(company-law-solutions.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;  
+}

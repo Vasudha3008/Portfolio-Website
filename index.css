@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(blur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-size: 390vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 19px;
+    -webkit-animation: glow 0.3s ease-in-out infinite alternate;
+  -moz-animation: glow 0.3s ease-in-out infinite alternate;
+  animation: glow 0.3s ease-in-out infinite alternate;
+
+}    
+.nav:hover{
+    text-decoration: underline;
+}
+
+#intro{
+    margin-top: 110px;
+}
+.vp{
+    font-size: 23px;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+#nav{
+padding:20px;
+margin:0px;
+}
+    
+@media screen and (max-width:600px){
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+
+#img{
+    margin:30px 43%;
+    box-shadow: 0 8px 8px 0 rgba(225, 151, 219, 0.715);
+    /* transition-duration: 2s; */
+    animation-name: motu;
+    animation-duration: 0.7s;
+    animation-direction:alternate-reverse;
+    transition-duration: 2s;
+    
+
+}
+@keyframes motu{
+    100%{
+        height:290px;
+        box-shadow: 0 8px 8px 0 rgba(57, 136, 162, 0.715);
+ 
+    }
+}
+#img:hover{
+    transform: scale(1.1);
+}
+
+/* #img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 8px 8px 0 rgba(57, 136, 162, 0.715);
+
+} */
+
+p{
+    text-align: center;
+}
+pre{
+        text-align: center;
+}
+.vasu{
+    font-size: 35px;
+    padding: 25px;
+    color: rgb(16, 230, 223);
+}
+.phul{
+    margin-top: 20px;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px rgb(6, 131, 255), 0 0 5px #fff, 0 0 5px #000000, 0 0 5px #ffffff, 0 0 5px #d95aca, 0 0 5px #ffffff, 0 0 5px #000000;
+    }
+    to { 
+      text-shadow: 0 0 5px #fff, 0 0 5px #000000, 0 0 5px #ffffff, 0 0 5px #fdfdfd, 0 0 5px #000000, 0 0 5px #ffffff, 0 0 5px #ffffff;
+    }
+  }
+
+#linked{
+    margin-top: 80px;
+    margin-left: 45%;
+    padding: 0px;
+}
+#insta{
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+/* @media screen and (max-width: 600px) {
+ul {
+float: none;
+width: 100%;
+}
+}
+     */
+#about{
+    margin-bottom: 320px;
+    /* margin-top: 170px; */
+}
+#me{
+    text-align: center;
+    font-size: 42px;
+    color: #fdfdfd;
+    margin-bottom: 120px;
+    text-decoration: underline;
+    text-shadow: 2px 2px rgba(57, 136, 162);
+}
+#name{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 18%;
+    margin-right: 20%;
+    color: #fdfdfd;
+    margin-bottom: 30px;
+    
+}
+#travel{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #fdfdfd;
+    margin-bottom: 10px;
+}
+#vasuu{
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-right: 100px;
+    box-shadow: 0 8px 4px 0 rgba(255, 255, 255, 0.371), 0 6px 20px 0 rgba(255, 255, 255, 0.388);
+
+}
+.abcd{
+    margin-right: 50px;
+
+}
+

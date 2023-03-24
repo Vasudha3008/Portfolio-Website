@@ -1,0 +1,54 @@
+body{
+    background-image: url(web-development.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh ;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 0 0 5px rgb(198, 114, 200), 0 0 5px rgb(195, 96, 201), 0 0 5px #ca46c8, 0 0 5px #be4bbc, 0 0 5px #d95aca, 0 0 5px #b03fbb, 0 0 5px #a140b6;
+}
+.skills{
+    font-size: 3rem;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, rgb(66, 218, 241), rgb(22, 82, 172), rgb(38, 10, 103));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#web{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    animation-name: vp;
+    animation-duration: 3.3s;
+
+}
+
+#app{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 9%;
+    animation-name: mk;
+    animation-duration: 3.3s;
+}
+@keyframes mk{
+   0%{
+        transform: translateX(65vw);
+    }
+    
+}
+
+@keyframes vp{
+    0%{
+         transform: translateX(-65vw);
+     }
+     
+ }
+
+ a{
+    text-decoration: none;
+ }
